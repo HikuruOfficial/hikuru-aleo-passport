@@ -1,0 +1,13 @@
+[mint]
+owner: address = aleo1fw4xmr8yv88scg20gmzqn2t7ye22wqk2rq22d2ayq6j952v0n5psw7ztqp;
+username: field = 72105107117114117field;
+ipfs: field = 0field;
+time: u64 = 1688310041u64;
+scores: u32 = 80u32;
+
+[update_nft]
+owner: address = aleo1fw4xmr8yv88scg20gmzqn2t7ye22wqk2rq22d2ayq6j952v0n5psw7ztqp;
+username_: field = 72105107117114118field;
+ipfs: field = 0field;
+time: u64 = 1688310041u64;
+scores: u32 = 20u32;
