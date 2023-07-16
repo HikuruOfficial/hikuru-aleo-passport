@@ -1,5 +1,5 @@
 [![Follow us on Twitter](https://img.shields.io/twitter/follow/HikuruOfficial?style=social&logo=twitter)](https://twitter.com/HikuruOfficial)
-[![Join our Discord](https://img.shields.io/discord/1234567890?color=%237289DA&label=Join%20our%20Discord&logo=discord&logoColor=white)](https://discord.gg/N5aazku2)
+[![Join our Discord](https://img.shields.io/discord/1234567890?color=%237289DA&label=Join%20our%20Discord&logo=discord&logoColor=white)](https://discord.gg/mevde2mRSw)
 ![Aleo Badge](https://img.shields.io/badge/Aleo-Developer-1572B6?style=flat-square&logo=aleo&logoColor=white)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 
