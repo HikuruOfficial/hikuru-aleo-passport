@@ -4,9 +4,9 @@
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 
 
-# Hikuru NFT Contract
+# What is Hikuru Passport?
 
-The Hikuru NFT contract is designed to enable the minting and management of non-fungible tokens (NFTs) on the Aleo blockchain. It incorporates various scoring mechanisms and transaction history checks to validate and classify users based on their activity on different blockchain networks and social media platforms.
+Hikuru Passport (Aleo blockchain) is a digital ID that uses valid credentials to verify user activity. It does not store personal information and ensures user privacy. It also uses open web standards to verify identity and can be used for verification on different blockchains, which increases the reliability and security of the system. Its use can help reduce fraudulent activities and provide more accurate user identification on the blockchain. Any project will be able to add wallet discovery function using our passport.
 
 ## Features
 
