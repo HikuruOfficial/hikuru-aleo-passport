@@ -8,6 +8,22 @@
 
 Hikuru Passport (Aleo blockchain) is a digital ID that uses valid credentials to verify user activity. It does not store personal information and ensures user privacy. It also uses on-chain analysis to verify the wallet on different blockchains, which increases the reliability and security of the system. Its use can help reduce fraudulent activities and provide more accurate user identification on the blockchain. Any project will be able to add wallet discovery function using our passport.
 
+## How we convert string to field?
+
+At the moment of script development there is no method for storing strings, so I had to invent my own. I invented to replace the text with capital letters so as not to go beyond the range of two-digit numbers and replace them with ascii code for each letter.
+
+```
+function stringToFields(inputString) {
+  let numericSequence = "";
+  inputString=inputString.toUpperCase();
+  for (let i = 0; i < inputString.length; i++) {
+    const charCode = inputString.charCodeAt(i);
+    numericSequence += charCode.toString();
+  }
+  return numericSequence+"field";
+}
+```
+
 ## Features
 
 ### 1. Minting NFTs
