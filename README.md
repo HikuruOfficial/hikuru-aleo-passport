@@ -30,20 +30,21 @@ function stringToFields(inputString) {
 
 The contract provides a function to mint a new NFT for a user. The `mint` function allows the owner to create a unique NFT associated with their identity. It requires the following input parameters:
 
-- `owner`: The address of the NFT owner.
+- `passport_owner`: The address of the NFT owner.
 - `username`: The username of the user.
-- `ipfs`: The IPFS hash associated with the user.
-- `time`: The timestamp when the user minted the NFT.
+- `edition`: NFT user version
+- `time`: The time when passport was created.
 - `scores`: The score of the user based on their blockchain and social media activities.
 
+  
 Example usage of the `mint` function:
 ```
 mint(
-    owner: aleo1fw4xmr8yv88scg20gmzqn2t7ye22wqk2rq22d2ayq6j952v0n5psw7ztqp,
-    username: 72105107117114117field,
-    ipfs: 0field,
-    time: 1688310041u64,
-    scores: 80u32
+  username: UserName = UserName { data0: 129134456695144u128, data1: 0u128, data2: 0u128, data3: 0u128 };
+  tokenid: TokenId = TokenId { data1: 1u128, data2: 0u128 };
+  edition: scalar = 1scalar;
+  time: u64 = 1688310041u64;
+  scores: u32 = 80u32;
 )
 ```
 
@@ -51,20 +52,20 @@ mint(
 
 The contract allows users to update their existing NFTs using the `update_nft` function. This function enables users to modify their NFT's associated information, such as the username, IPFS hash, timestamp, and scores. It requires the following input parameters:
 
-- `owner`: The address of the NFT owner.
-- `username`: The updated username of the user.
-- `ipfs`: The updated IPFS hash associated with the user.
-- `time`: The updated timestamp of the NFT.
-- `scores`: The updated score of the user based on their activities.
+- `passport_owner`: The address of the NFT owner.
+- `username`: The username of the user.
+- `edition`: NFT user version
+- `time`: The time when passport was created.
+- `scores`: The score of the user based on their blockchain and social media activities.
 
 Example usage of the `update_nft` function:
 ```
 update_nft(
-    owner: aleo1fw4xmr8yv88scg20gmzqn2t7ye22wqk2rq22d2ayq6j952v0n5psw7ztqp,
-    username: 72105107117114118field,
-    ipfs: 0field,
-    time: 1688310041u64,
-    scores: 20u32
+owner: address = aleo1593eszedn3kp4ansaw7vrruqym6tqcywtc2ly5yq5gd2gg9d5qpq5hf26k;
+username: UserName = UserName { data0: 1u128, data1: 0u128, data2: 0u128, data3: 0u128 };
+edition: scalar = 2scalar;
+time: u64 = 1688310041u64;
+scores: u32 = 82u32;
 )
 ```
 
@@ -128,21 +129,22 @@ Here are example input data for the correct usage of the contract's functions:
 ### Mint Function
 ```
 [mint]
-owner: aleo1fw4xmr8yv88scg20gmzqn2t7ye22wqk2rq22d2ayq6j952v0n5psw7ztqp
-username: 72105107117114117field
-ipfs: 0field
-time: 1688310041u64
-scores: 80u32
+username: UserName = UserName { data0: 129134456695144u128, data1: 0u128, data2: 0u128, data3: 0u128 };
+tokenid: TokenId = TokenId { data1: 1u128, data2: 0u128 };
+edition: scalar = 1scalar;
+time: u64 = 1688310041u64;
+scores: u32 = 80u32;
+
 ```
 
 ### Update NFT Function
 ```
 [update_nft]
-owner: aleo1fw4xmr8yv88scg20gmzqn2t7ye22wqk2rq22d2ayq6j952v0n5psw7ztqp
-username_: 72105107117114118field
-ipfs: 0field
-time: 1688310041u64
-scores: 20u32
+owner: address = aleo1593eszedn3kp4ansaw7vrruqym6tqcywtc2ly5yq5gd2gg9d5qpq5hf26k;
+username: UserName = UserName { data0: 1u128, data1: 0u128, data2: 0u128, data3: 0u128 };
+edition: scalar = 2scalar;
+time: u64 = 1688310041u64;
+scores: u32 = 82u32;
 ```
 
 Please note that the above data examples serve as a reference for correctly invoking the contract's functions with appropriate input parameters.
