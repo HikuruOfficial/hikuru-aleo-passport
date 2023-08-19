@@ -89,38 +89,36 @@ Each NFT created using the contract is unique and cannot be transferred to anoth
 
 The contract incorporates scoring mechanisms to assess users' activities on various blockchain networks and social media platforms. The scoring is performed as follows:
 
-#### Aleo Blockchain
-- Transaction older than 30 days: 5 points
-- More than 10 transactions: 3 points
+### Aleo Blockchain
+- Transaction older than 30 days: 4 points
+- More than 10 transactions: 6 points
 - More than 50 transactions: 10 points
 
-#### Ethereum
-- Transaction older than 30 days: 5 points
-- More than 10 transactions: 3 points
+### Ethereum
+- Transaction older than 30 days: 4 points
+- More than 10 transactions: 6 points
 - More than 50 transactions: 10 points
 
-#### Binance Smart Chain
-- Transaction older than 30 days: 5 points
-- More than 10 transactions: 3 points
+### Binance Smart Chain
+- Transaction older than 30 days: 4 points
+- More than 10 transactions: 6 points
 - More than 50 transactions: 10 points
 
-#### Polygon
-- Transaction older than 30 days: 5 points
-- More than 10 transactions: 3 points
+### Polygon
+- Transaction older than 30 days: 4 points
+- More than 10 transactions: 6 points
 - More than 50 transactions: 10 points
 
-#### NFT Holder
-- NFT holder on Aleo: 4 points
-- NFT holder on another blockchain: 4 points
+### NFT Holder
+- NFT holder on Aleo: 2 points
+- Domain Aleo: 2 points
 
-#### Social Network
+### Social Network
 - Discord: 2 points
 - Twitter: 2 points
 - Twitter followers (100+): 5 points
-- Telegram: 2 points
 - GitHub: 2 points
 - GitHub repository: 5 points
-- Reddit: 2 points
 
 ## Example Data
 
