@@ -1,13 +1,24 @@
+[initialize_collection]
+total: u128 = 0u128;
+symbol: u128 = 28776u128;
+base_uri: BaseURI = BaseURI { data0: 0u128,data1: 0u128, data2: 0u128, data3: 0u128 };
+
+
+[update_base_uri]
+base_uri: BaseURI = BaseURI { data0: 0u128,data1: 0u128, data2: 0u128, data3: 0u128 };
+
+
 [mint]
-owner: address = aleo1fw4xmr8yv88scg20gmzqn2t7ye22wqk2rq22d2ayq6j952v0n5psw7ztqp;
-username: field = 72105107117114117field;
-ipfs: field = 0field;
+username: UserName = UserName { data0: 129134456695144u128, data1: 0u128, data2: 0u128, data3: 0u128 };
+tokenid: TokenId = TokenId { data1: 1u128, data2: 0u128 };
+edition: scalar = 1scalar;
 time: u64 = 1688310041u64;
 scores: u32 = 80u32;
 
-[update_nft]
-owner: address = aleo1fw4xmr8yv88scg20gmzqn2t7ye22wqk2rq22d2ayq6j952v0n5psw7ztqp;
-username_: field = 72105107117114118field;
-ipfs: field = 0field;
+
+[update_passport]
+owner: address = aleo1593eszedn3kp4ansaw7vrruqym6tqcywtc2ly5yq5gd2gg9d5qpq5hf26k;
+username: UserName = UserName { data0: 1u128, data1: 0u128, data2: 0u128, data3: 0u128 };
+edition: scalar = 2scalar;
 time: u64 = 1688310041u64;
-scores: u32 = 20u32;
+scores: u32 = 82u32;
