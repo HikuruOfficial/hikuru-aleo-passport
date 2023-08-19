@@ -8,6 +8,9 @@
 
 Hikuru Passport (Aleo blockchain) is a digital ID that uses valid credentials to verify user activity. It does not store personal information and ensures user privacy. It also uses on-chain analysis to verify the wallet on different blockchains, which increases the reliability and security of the system. Its use can help reduce fraudulent activities and provide more accurate user identification on the blockchain. Any project will be able to add wallet discovery function using our passport.
 
+### Deployed contract
+[hikuru_passport_v1.aleo](https://explorer.hamp.app/program?id=hikuru_passport_v1.aleo)
+
 ## How we convert string to field?
 
 At the moment of script development there is no method for storing strings, so I had to invent my own. I invented to replace the text with capital letters so as not to go beyond the range of two-digit numbers and replace them with ascii code for each letter.
@@ -23,6 +26,7 @@ function stringToFields(inputString) {
   return numericSequence+"field";
 }
 ```
+
 
 ## Features
 
@@ -144,6 +148,8 @@ edition: scalar = 2scalar;
 time: u64 = 1688310041u64;
 scores: u32 = 82u32;
 ```
+
+
 
 Please note that the above data examples serve as a reference for correctly invoking the contract's functions with appropriate input parameters.
 
