@@ -9,7 +9,7 @@
 Hikuru Passport (Aleo blockchain) is a digital ID that uses valid credentials to verify user activity. It does not store personal information and ensures user privacy. It also uses on-chain analysis to verify the wallet on different blockchains, which increases the reliability and security of the system. Its use can help reduce fraudulent activities and provide more accurate user identification on the blockchain. Any project will be able to add wallet discovery function using our passport.
 
 ### Deployed contract
-[hikuru_ans_v1.aleo](https://explorer.hamp.app/program?id=hikuru_ans_v1.aleo)
+[hikuru_passport_v1.aleo](https://explorer.hamp.app/program?id=hikuru_passport_v1.aleo)
 
 ## How we convert string to field?
 
