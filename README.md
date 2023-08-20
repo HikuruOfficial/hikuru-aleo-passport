@@ -75,9 +75,9 @@ scores: u32 = 82u32;
 
 ### 3. User Status Calculation
 
-The contract includes a function called `get_status` to calculate the status of a user based on their score. The status determines whether the user is classified as a Sybyl, Human, or Crypto Enthusiast. The scoring ranges for each status are as follows:
+The contract includes a function called `get_status` to calculate the status of a user based on their score. The status determines whether the user is classified as a Sybil, Human, or Crypto Enthusiast. The scoring ranges for each status are as follows:
 
-- Sybyl: Scores from 0 to 20
+- Sybil: Scores from 0 to 20
 - Human: Scores from 21 to 79
 - Crypto Enthusiast: Scores from 80 to 100
 
