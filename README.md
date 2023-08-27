@@ -150,7 +150,6 @@ scores: u32 = 82u32;
 ```
 
 
-
 Please note that the above data examples serve as a reference for correctly invoking the contract's functions with appropriate input parameters.
 
 ---
