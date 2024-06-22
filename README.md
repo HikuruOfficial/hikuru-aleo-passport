@@ -15,6 +15,7 @@ Hikuru Passport (Aleo blockchain) is a digital ID that uses valid credentials to
 
 At the moment of script development there is no method for storing strings, so I had to invent my own. I invented to replace the text with capital letters so as not to go beyond the range of two-digit numbers and replace them with ascii code for each letter.
 
+
 ```
 function stringToFields(inputString) {
   let numericSequence = "";
